@@ -1,4 +1,4 @@
-DOCUMENTATION OF SAS PROGRAMMING ESSENTIALS 1:
+************************DOCUMENTATION OF SAS PROGRAMMING ESSENTIALS 1:**********************************
 10 January, 2021
 
 Lessons:
@@ -12,7 +12,7 @@ Lessons:
 8. Using SQL in SAS
 
 
-Lesson:1 Essentials & Overview:
+******************Lesson:1 Essentials & Overview:************************
 
 Programming Interfaces:
 1. SAS studio
@@ -65,7 +65,7 @@ Different types of syntax errors
 4. Not in valid options
 
 
-Lesson:2 ACCESSING THE DATA
+**************Lesson:2 ACCESSING THE DATA**************************
 
 Types of datas:
 
@@ -103,8 +103,6 @@ To give the summary of the data:
 
 proc contents data="path of the file";
 run;
-
-
 
 But what is the problem with such hard coded paths:
 1. Change in data location
@@ -174,7 +172,7 @@ data must be reimported if it changes
 
 
 
-LESSON 3: EXPLORING AND VALIDATING
+********************************LESSON 3: EXPLORING AND VALIDATING*********************************************
 
 1. Name of column 
 2. Types of values the have
@@ -259,11 +257,6 @@ proc print data=pg1.np_summary;
     where ParkName like '%Preserve%';
 run;
 
-
-
-
-
-
 Formating the columns:
 
 Proc print data=inputtable
@@ -318,8 +311,6 @@ Nodupkey <dupout=output-table>
 by desc col-names;
 Run;
 
-
-
 ***********************************************************;
 *  Activity 3.06                                          *;
 *    1) Modify the OUT= option in the PROC SORT statement *;
@@ -353,7 +344,7 @@ run;
 
 
 
-LESSON 4. PREPARING THE DATA
+*********************************************LESSON 4. PREPARING THE DATA*************************************************
 
 Data manipulations like:
 1. Filtering rows & columns
@@ -568,7 +559,7 @@ run;
 
 
 
-LESSON 5: ANALYSING & REPORTING DATA:
+*********************************************LESSON 5: ANALYSING & REPORTING DATA:*********************************
 
 1. Enhancing the reports with titles, footnotes & labels
 
@@ -734,7 +725,7 @@ Output out= output-table <stat=col-name>;
 
 
 
-LESSON6: EXPORTING THE DATA:
+*******************************************LESSON6: EXPORTING THE DATA:****************************************
 
 Syntax:
 
@@ -771,8 +762,7 @@ Ods rtf file=”name” startpage=no;
 Ods rtf close;
 
 
-
-LESSON 7: STRUCTURED QUERY LANGUAGE(SQL in SAS)
+**************************************************LESSON 7: STRUCTURED QUERY LANGUAGE(SQL in SAS)*************************************
 
 PREPARE DATA & ANALYZE THEM
 
